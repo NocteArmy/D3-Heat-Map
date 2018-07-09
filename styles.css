@@ -1,0 +1,32 @@
+body {
+  background: hsl(75, 25%, 60%);
+}
+svg {
+  background: white;
+  display: block;
+  margin: 100px auto;
+  box-shadow: 6px 6px 4px hsl(220, 5%, 25%);
+}
+#title {
+  font-size: 2em;
+  font-weight: 700;
+}
+#description {
+  font-size: 1.25em;
+  font-weight: 400;
+}
+.cell:hover {
+  stroke: black;
+  stroke-width: 1px;
+}
+#tooltip {
+  background-color: rgba(20, 20, 20, 0.9);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+.legend-cell {
+  stroke: black;
+  stroke-width: 1px;
+}
